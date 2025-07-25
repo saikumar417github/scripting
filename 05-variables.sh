@@ -8,6 +8,6 @@ echo "given username is $USERNAME"
 
 echo "Please enter password"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "Given password is $PASSWORD"
