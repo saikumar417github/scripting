@@ -12,10 +12,15 @@ fi
 
 yum list installed git
 
-if [ echo $? -gt 0 ]
+if [ $? -ne 0 ]
 then 
 echo "Git is not installed, goting to install it"
 yum install git -y
+if [ $? -ne 0 ]
+then
+echo "Git installation is failed, please check"
+else
+echo "Git installation is successful"
 else
 echo "Git is already installed nothing to do"
 fi
