@@ -21,6 +21,7 @@ then
 echo "Git installation is failed, please check"
 else
 echo "Git installation is successful"
+fi
 else
 echo "Git is already installed nothing to do"
 fi
