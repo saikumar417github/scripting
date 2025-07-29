@@ -10,7 +10,7 @@ echo "Please run script with root user"
 exit 1
 fi
 
-yum list installed git
+yum list installed gitttt
 
 if [ $? -ne 0 ]
 then 
